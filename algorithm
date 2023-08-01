@@ -1,0 +1,30 @@
+
+def changing_setparak(new_value):
+    pass
+
+
+
+test_results = [int(i) for i in input("Введите результаты через пробел: ").split()]
+
+certified_value = int(input('Введие аттестованное значение: '))
+
+average_test_results = int(sum(test_results) / len(test_results))
+
+current_heat_capacity =          # Вытащить текущее значение из setparak
+
+required_heat_capacity =         # Посчитать нужное значение
+
+print('Средняя теплота сгорания, полученная вами =', average_test_results)
+
+print('Требуемая теплота сгорания:', certified_value)
+
+print('Текущая теплоёмкость: ', current_heat_capacity)
+
+print(f'Необходимо подставить величину {required_heat_capacity} для получения аттестованного значения')
+
+is_change_value = input('Применить рассчитанную теплоемкость? [да / нет]: ')
+
+if is_change_value == 'д' or is_change_value == 'да' or is_change_value == 'Да' or is_change_value == 'Д':
+    changing_setparak(required_heat_capacity)
+else:
+    print('Ок, оставляем Ваше значение', current_heat_capacity)
