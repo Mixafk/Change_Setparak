@@ -7,7 +7,7 @@ def changing_setparak(new_value):
     config.set('Option1', 'Instrument1', new_value)
     with open('Setparak.ini', 'w') as file:
         config.write(file)
-    print(config.get('Option1', 'Instrument1'))
+    print('Ваше значение успешно изменено на:', config.get('Option1', 'Instrument1'))
 
 
 test_results = [int(i) for i in input("Введите результаты через пробел: ").split()]
