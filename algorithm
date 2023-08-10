@@ -4,8 +4,6 @@ def changing_setparak(new_value):
     config = configparser.ConfigParser()
     config.read('Setparak.ini')
     config.set('Option1', 'SelInstrument', new_value)
-    with open('Setparak.ini', 'w') as file:
-        config.write(file)
     config.set('Option1', 'Instrument1', new_value)
     with open('Setparak.ini', 'w') as file:
         config.write(file)
