@@ -34,6 +34,6 @@ print(f'Необходимо подставить величину {required_hea
 is_change_value = input('Применить рассчитанную теплоемкость? [да / нет]: ')
 
 if is_change_value == 'д' or is_change_value == 'да' or is_change_value == 'Да' or is_change_value == 'Д':
-    changing_setparak(required_heat_capacity)
+    changing_setparak(str(required_heat_capacity))
 else:
     print('Ок, оставляем Ваше значение', current_heat_capacity)
