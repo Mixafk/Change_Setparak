@@ -1,3 +1,4 @@
+
 import configparser
 
 def changing_setparak(new_value):
@@ -16,9 +17,9 @@ certified_value = int(input('Введие аттестованное значе�
 
 average_test_results = int(sum(test_results) / len(test_results))
 
-current_heat_capacity =          # Вытащить текущее значение из setparak
+current_heat_capacity = 9878       # Вытащить текущее значение из setparak
 
-required_heat_capacity =         # Посчитать нужное значение
+required_heat_capacity = 0000         # Посчитать нужное значение
 
 print('Средняя теплота сгорания, полученная вами =', average_test_results)
 
