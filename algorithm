@@ -1,3 +1,4 @@
+import configparser
 
 def changing_setparak(new_value):
     config = configparser.ConfigParser()
